@@ -13,3 +13,7 @@ article_show:
 admin_film_new:
     path:     /admin/film/new
     defaults: { _controller: FrontendBundle:Default:newFilm }
+
+new_comment:
+    path:     /film/{id}/newcomment
+    defaults: { _controller: FrontendBundle:Default:newComment }
