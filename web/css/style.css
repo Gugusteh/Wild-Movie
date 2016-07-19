@@ -59,3 +59,75 @@
 	background-color:#04B45F;
 	padding:20px;
 }
+/*==============autres articles==============*/
+
+.autre-article
+{
+	border: solid 2px black;
+	margin: 10px;
+	text-decoration: none;
+	color: #000;
+}
+
+.titre-autre-article
+{
+	text-align: center;
+	font-weight: bold;
+}
+
+.lien-autre-article:hover
+{
+	text-decoration: none;
+}
+
+.img-autre-article
+{
+	max-height: 150px;
+	width: 100%;
+}
+
+/*================article courant=============*/
+
+.img-article
+{
+	max-height:500px;
+	width: 100%;
+	margin-bottom: 30px;
+}
+.article-container
+{
+	margin-left: 5%;
+	margin-right: 5%;
+}
+.titre-article
+{
+	font-weight: bolder;
+	font-size: 36px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

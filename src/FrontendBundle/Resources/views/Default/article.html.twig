@@ -1,10 +1,33 @@
 {% extends '::base.html.twig' %}
 
 {% block body %}
-
-	<h2> Télécharge cette maquette et intégre ta page ici-même.
-	Le contenu est bien entendu fictif. Ne rentre pas un article en BDD, nous te demandons juste d'intégrer la page. (Le header et le footer sont déjà présent !!!)</h2>
-
-	<img src="{{ asset('img/image.png') }}">
-
+	<div class="col-md-9">
+		<div class="article-container">
+			<h2 class="titre-article">Titre de l'article</h2>
+			<img src="{{ asset('img/photo1.jpg') }}" class="img-article"/>
+			<article>
+				Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker.
+			</article>
+		</div>
+	</div>
+	<div class="col-md-3">
+		<a href="" class="lien-autre-article">
+			<div class="autre-article">
+				<img src="{{ asset('img/photo1.jpg') }}" alt="image autre article" class="img-autre-article">
+				<h4 class="titre-autre-article">Autre article</h4>
+			</div>
+		</a>
+		<a href="" class="lien-autre-article">
+			<div class="autre-article">
+				<img src="{{ asset('img/photo1.jpg') }}" alt="image autre article" class="img-autre-article">
+				<h4 class="titre-autre-article">Autre article</h4>
+			</div>
+		</a>
+		<a href="" class="lien-autre-article">
+			<div class="autre-article">
+				<img src="{{ asset('img/photo1.jpg') }}" alt="image autre article" class="img-autre-article">
+				<h4 class="titre-autre-article">Autre article</h4>
+			</div>
+		</a>
+	</div>
 {% endblock %}
